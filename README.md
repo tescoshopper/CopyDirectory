@@ -1,2 +1,2 @@
 # CopyDirectory
-Asynchronous recursive folder copying utility.
+This is a Visual Studio 2019 Solution containing one C# console application project. The purpose of the application is as a test harness for the referenced assembly IOFunctions which contains a function to asynchonously and recursively copy a source folder and its contents to a destination folder. The test harness will demonstrates the TAP pattern. The console application will begin the task to copy the folder with UI output without the UI thread becoming blocked. This is demonstated by a simultaneous "dummy" output to the UI. The asynchronous task is awaited before the application completes. The simplest method of generating an executable for demonstration is to publish the application from Visual Studio.
